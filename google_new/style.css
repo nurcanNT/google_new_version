@@ -1,0 +1,181 @@
+.body{
+    margin: 0px auto; /*dıştan boşluk*/
+}
+#choice{
+    display: flex; /*ögelere esneklik için*/
+    align-items: center; /*dikey hiza*/
+    justify-content: flex-end; /*yatay hiza, en sondaki sembol sağa yaslanacak şekilde hizalar*/
+    margin-right: 30px; /*sağdan boşluk*/
+    margin-top: 5px; /*yukarıdan boşluk*/
+    height: 3px;
+    
+}
+.choice1{
+   margin-bottom: -1px;
+   margin-right: 900px;
+   margin-top: -29px;
+   height: 0px;
+}
+.choice2{
+    justify-content: flex-end;
+}
+a{
+    color: black;/*yazı tipi rengi*/
+    text-decoration: none;/*alt çizgi kaldırma*/
+    font-size: 15px;/*yazı boyutu*/
+    display: inline-block; /*boluk tipi ve a'ların aynı satırda bulunması için*/
+    line-height: 24px;/*satırlar arası yükseklik*/
+    margin-right: 20px;/*sağdan boşluk*/
+}
+a:hover{
+    text-decoration: underline; /*fare imlecinin alt titlelari göstermesi*/
+}
+img{
+    width: 25px; /*genişlik*/
+    padding: 5px; /*içerik ve sınır arasındaki boşluk*/
+    margin: 0 7px; 
+   
+}
+
+img:hover{
+    opacity: 0.8;/*saydamlık için*/
+}
+button{
+    background-color: #d3d7db;/*arka plan*/
+    border: 1px solid transparent; /*sınır çizgi özellikleri*/
+    color: white; /*yazı tipi*/
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;/*buton kenarlarını ovalleştirme*/
+}
+#apps{
+    margin-top: 50px;
+    margin-bottom: -13px;
+}
+.simge{
+    margin-bottom: -13px;
+}
+button:hover{
+    background-color: #b5b8bb;
+}
+.google-logo{
+   height: 130px;
+   width: 250px;
+}
+#mid{
+    margin-top: 90px;
+    margin: 100px;
+}
+    #logo{
+        text-align: center; 
+        margin: 10px;
+    }
+    .call{
+        width: 580px;
+        margin: 0px auto;
+        position: relative;
+        margin-top: -8px;
+        text-align: center;
+    }
+    .s-input{
+        display: block;
+        border: 1px solid #ddd;
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 16px;
+        padding: 13px;
+        padding-left: 45px;
+        border-radius: 25px;
+        width: 100%;
+        outline: none;
+    }
+    .s-input:hover{
+        box-shadow: 1px 1px 5px grey;/*arama buttonun arkasını gölgeli yapar*/
+    }
+    .search-icon{
+        width: 20px;
+        opacity: 0.4;
+        position:absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .voicelogo{
+        width: 18px;
+        position:absolute;
+        top:13px;
+        right: -35px;
+    }
+    .keyboard{
+        width: 30px;
+        position:absolute;
+        top: 8px;
+        right: -2px;
+    }
+    .keyboard:hover{
+        opacity: 0.8;
+    }
+    button{
+        border: 1px #f2f2f2; /*sınır çizgileri*/
+        padding: 0px 16px; /*içerk ve sınır boşlukları*/
+        color: #5f6368;/*yazı renkleri*/
+        height: 36px;
+        width: 130px;
+        font-size: 14px;/*yazı boyutu*/
+        border-radius: 4px;/*oval görüntü*/
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 10px;
+        line-height: 27px;
+        min-width: 54px;
+        user-select: none;
+        cursor: pointer;/*imleç buttonlara geldiğinde el imlecine dönüşür*/
+    }
+    button:hover{
+        border:1px solid #aaa;/*imleç hareket ettiğinde kenar çizgileri belirginleşir.*/
+    }
+    .buttonu{
+        border: 1px #f2f2f2; /*sınır çizgileri*/
+        padding: 0px 19px; /*içerk ve sınır boşlukları*/
+        color:#5f6368;/*yazı renkleri*/
+        font-size: 15px;/*yazı boyutu*/
+        height: 36px;
+        width: 160px;
+        border-radius: 4px;/*oval görüntü*/
+        display: inline-block;
+        margin-right: 10px;
+        margin-top: 29px;
+        margin:0;
+
+        min-width: 54px;
+        user-select: none;
+        cursor: pointer;/*imleç buttonlara geldiğinde el imlecine dönüşür*/
+    }
+
+footer{
+    background-color: #f2f2f2;/*arka plan rengi*/
+    position: fixed;/*sabit - tarayıcıya göre hareket etmeyen kısım yapmak için */
+    bottom: 0px;/*sayfanın en altına indirmek için */
+    width: 100%;/*genişlik*/
+    height: 40px;/*yükseklik*/
+}
+
+a{
+    color: #5f6368;
+    display: inline-block;
+    padding: 12px 11px;
+    font-size: 14px;
+    text-decoration: none;/*alt çizgi kaldırma*/
+}
+a:hover{
+    text-decoration: underline;/*imleç hareketinde alt çizgili gösterir*/
+}
+.sub-information{
+    border-top: 1px solid #ddd;
+    display: flex;
+}
+.sub-information1{
+    padding-left: 18px;/*içerik ve sınır arası boşluk*/
+    flex: 1;/*sub-information1 ve sub-information2 arası boşluk ayarlar*/
+}
+.sub-information2{
+    padding-right: 18px;/*sağdan boşluk*/
+}
